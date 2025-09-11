@@ -1,5 +1,4 @@
-﻿
-@page "/"
+﻿@page "/"
 
 <PageTitle>Video Musicali</PageTitle>
 
@@ -9,26 +8,47 @@
 
 <button class="btn btn-primary" @onclick="ShowVideo">Mostra video</button>
 
-@if (selectedVideo != null)
+@if (!string.IsNullOrEmpty(selectedVideoId))
 {
     <div class="mt-3">
-        <iframe width="560" height="315" src="@selectedVideo" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+        <div class="ratio ratio-16x9">
+            <iframe 
+                src="https://www.youtube.com/embed/@selectedVideoId" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="mt-2">
+            <a href="https://www.youtube.com/watch?v=@selectedVideoId" 
+               target="_blank" 
+               class="btn btn-danger">
+                📺 Guarda su YouTube
+            </a>
+        </div>
     </div>
 }
 
 @code {
-    private string[] videos = new[]
+    private VideoInfo[] videos = new[]
     {
-        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/8aEuQBZrGy4?si=sDy8b-no_4-Da3l_\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/1-L2QeBgXP0?si=JuPfxxBC399EwTgN\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
-        "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rZjCv8m72w4?si=rn2eSZ_S4kxqerdw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+        new VideoInfo("8aEuQBZrGy4", "Billie Eilish - bad guy"),
+        new VideoInfo("1-L2QeBgXP0", "Eminem - Lose Yourself"),
+        new VideoInfo("rZjCv8m72w4", "Dua Lipa - Levitating"),
+        new VideoInfo("kJQP7kiw5Fk", "Despacito"),
+        new VideoInfo("9bZkp7q19f0", "PSY - Gangnam Style")
     };
 
-    private string? selectedVideo;
+    private string? selectedVideoId;
 
     private void ShowVideo()
     {
         var random = new Random();
-        selectedVideo = videos[random.Next(videos.Length)];
+        var video = videos[random.Next(videos.Length)];
+        selectedVideoId = video.Id;
     }
+
+    private record VideoInfo(string Id, string Title);
 }
