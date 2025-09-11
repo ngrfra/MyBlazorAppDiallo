@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo\\MyBlazorAppDiallo.csproj": {}
+    "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo\\MyBlazorAppDiallo.csproj": {
+    "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo\\MyBlazorAppDiallo.csproj",
+        "projectUniqueName": "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo.csproj",
         "projectName": "MyBlazorAppDiallo",
-        "projectPath": "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo\\MyBlazorAppDiallo.csproj",
+        "projectPath": "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo.csproj",
         "packagesPath": "C:\\Users\\A893apulia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo\\obj\\",
+        "outputPath": "C:\\Users\\A893apulia\\Documents\\Cs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A893apulia\\AppData\\Roaming\\NuGet\\NuGet.Config"

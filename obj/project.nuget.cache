@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GQnbXr42Se8=",
+  "dgSpecHash": "QZDzVcEk51o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo\\MyBlazorAppDiallo.csproj",
+  "projectFilePath": "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A893apulia\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.7\\microsoft.aspnetcore.authorization.9.0.7.nupkg.sha512",
     "C:\\Users\\A893apulia\\.nuget\\packages\\microsoft.aspnetcore.components\\9.0.7\\microsoft.aspnetcore.components.9.0.7.nupkg.sha512",
