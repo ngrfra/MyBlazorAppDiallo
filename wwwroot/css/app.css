@@ -1,3 +1,6 @@
+.px-4{
+    padding: 0 !important;
+}
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0;
