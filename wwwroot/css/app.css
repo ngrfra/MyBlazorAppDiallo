@@ -1,4 +1,12 @@
+.bi-yo {
+    height: 35px;
+    font-size: 90px;
+}
 .bi {
+    height: 35px;
+    font-size: 90px;
+}
+.bi, .bi-youtube {
     height: 35px;
     font-size: 90px;
 }
