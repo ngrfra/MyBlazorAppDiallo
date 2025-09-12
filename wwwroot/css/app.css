@@ -1,14 +1,14 @@
-.bi-youtube {
+/*.bi-youtube {
     height: 35px;
     font-size: 80px;
 }
 .bi {
     height: 35px;
     font-size: 80px;
-}
+}*/
 .bi, .bi-youtube {
     height: 35px;
-    font-size: 80px;
+    font-size: 30px;
 }
 .px-4{
     padding: 0 !important;
