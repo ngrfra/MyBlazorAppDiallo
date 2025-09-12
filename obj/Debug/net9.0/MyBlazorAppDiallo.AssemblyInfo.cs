@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyBlazorAppDiallo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+837b2b8ab04f5ca31ab1782d6cf7d666d614f32f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c00ad97390ede02efcaa967575ac7a8343edd2e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyBlazorAppDiallo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyBlazorAppDiallo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
