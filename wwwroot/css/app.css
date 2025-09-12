@@ -2,6 +2,27 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.playlists {
+    background: linear-gradient(135deg, #000000, #00ff88);
+    color: white;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.videos {
+    background: linear-gradient(135deg, #ff0000, #ffffff);
+    color: #111;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.tracks {
+    background: linear-gradient(135deg, #1DB954, #ffffff);
+    color: #111;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
 h1:focus {
     outline: none;
 }

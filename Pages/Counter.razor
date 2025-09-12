@@ -1,12 +1,14 @@
 ﻿@page "/counter"
+@layout MainLayout
 
 <PageTitle>Playlist Random</PageTitle>
-
+<div class="playlists"> 
 <h1>🎵 Playlist del giorno</h1>
 
 <p>Clicca il pulsante per vedere una playlist casuale!</p>
 
 <button class="btn btn-primary" @onclick="ShowRandomPlaylist">Mostra playlist</button>
+</div>
 
 @if (!string.IsNullOrEmpty(selectedPlaylistId))
 {
@@ -30,6 +32,7 @@
             </a>
         </div>
     </div>
+    
 }
 
 @code {

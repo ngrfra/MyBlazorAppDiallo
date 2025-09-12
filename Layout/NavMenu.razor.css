@@ -1,3 +1,14 @@
+.sidebar {
+    background: linear-gradient(180deg, #121212, #2a003f);
+    color: white;
+}
+
+.top-row {
+    background: linear-gradient(90deg, #121212, #2a003f);
+    border-bottom: 1px solid #444;
+    color: white;
+}
+
 .navbar-toggler {
     background-color: rgba(199, 93, 112, 0.1);
 }

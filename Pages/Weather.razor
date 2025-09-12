@@ -1,13 +1,13 @@
 ﻿@page "/weather"
 
 <PageTitle>Brano del Giorno</PageTitle>
-
+<div class="tracks">
 <h1>🎧 Brano del giorno</h1>
 
 <p>Clicca il pulsante e ascolta un brano Spotify a caso!</p>
 
 <button class="btn btn-success" @onclick="ShowTrack">🎵 Ascolta</button>
-
+</div>
 @if (!string.IsNullOrEmpty(selectedTrackId))
 {
     <div class="mt-3">

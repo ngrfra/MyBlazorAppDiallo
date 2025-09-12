@@ -1,13 +1,14 @@
 ﻿@page "/"
+@layout MainLayout
 
 <PageTitle>Video Musicali</PageTitle>
-
+<div class="videos">
 <h1>🎬 Video casuale</h1>
 
 <p>Clicca il pulsante per scoprire un video musicale!</p>
 
 <button class="btn btn-primary" @onclick="ShowVideo">Mostra video</button>
-
+</div>
 @if (!string.IsNullOrEmpty(selectedVideoId))
 {
     <div class="mt-3">
