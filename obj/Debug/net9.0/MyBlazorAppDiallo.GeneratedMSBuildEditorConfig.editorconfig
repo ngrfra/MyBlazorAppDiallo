@@ -13,41 +13,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = MyBlazorAppDiallo
 build_property.RootNamespace = MyBlazorAppDiallo
-build_property.ProjectDir = C:\Users\A893apulia\Documents\Cs\
+build_property.ProjectDir = /Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\A893apulia\Documents\Cs
+build_property.MSBuildProjectDirectory = /Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/A893apulia/Documents/Cs/App.razor]
+[/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A893apulia/Documents/Cs/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A893apulia/Documents/Cs/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A893apulia/Documents/Cs/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A893apulia/Documents/Cs/_Imports.razor]
+[/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/A893apulia/Documents/Cs/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-e18u8zev69
+[/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-adox74loou
 
-[C:/Users/A893apulia/Documents/Cs/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-7x3grffvg9
+[/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1yhrlwqnu7

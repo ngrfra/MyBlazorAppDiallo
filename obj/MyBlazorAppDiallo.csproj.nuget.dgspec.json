@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo.csproj": {}
+    "/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/MyBlazorAppDiallo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo.csproj": {
+    "/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/MyBlazorAppDiallo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo.csproj",
+        "projectUniqueName": "/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/MyBlazorAppDiallo.csproj",
         "projectName": "MyBlazorAppDiallo",
-        "projectPath": "C:\\Users\\A893apulia\\Documents\\Cs\\MyBlazorAppDiallo.csproj",
-        "packagesPath": "C:\\Users\\A893apulia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A893apulia\\Documents\\Cs\\obj\\",
+        "projectPath": "/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/MyBlazorAppDiallo.csproj",
+        "packagesPath": "/Users/yangkiddkid/.nuget/packages/",
+        "outputPath": "/Users/yangkiddkid/Documents/GitHub/MyBlazorAppDiallo/MyBlazorAppDiallo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A893apulia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/yangkiddkid/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -56,13 +56,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.7, )",
+              "version": "[9.0.8, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.7, )",
+              "version": "[9.0.8, )",
               "autoReferenced": true
             }
           },
@@ -80,7 +80,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.7, 9.0.7]"
+              "version": "[9.0.8, 9.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
