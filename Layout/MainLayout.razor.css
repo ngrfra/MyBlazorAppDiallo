@@ -7,7 +7,7 @@
 
 main {
     flex: 1;
-    padding: 0 !important;
+    padding: 0;
 }
 
 .sidebar {
@@ -15,11 +15,12 @@ main {
 }
 
 .top-row {
-      background: linear-gradient(90deg, #121212, #2a003f); /* Imposta lo stesso gradiente di NavMenu.razor.css */
-    border-bottom: 1px solid #444; /* Bordo più scuro per coerenza */
-    color: white;
-    min-height: 3.5rem;
-}
+      background-color: white; /* Sfondo bianco */
+    border-bottom: 1px solid #d1d1d1;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;}
 
     .top-row ::deep a, .top-row ::deep .btn-link {
         white-space: nowrap;
