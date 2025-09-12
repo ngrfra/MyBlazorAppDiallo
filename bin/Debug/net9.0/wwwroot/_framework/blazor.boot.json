@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "MyBlazorAppDiallo",
   "resources": {
-    "hash": "sha256-wBB3c2TLIqs+jg6f3x+4fiPHn5MPkTRecOk4TkTrNaA=",
+    "hash": "sha256-YhaxSXJEO3Z8FpCRH7WcSjHCubFtCJVpZCmLTpHSiVA=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.bvu82j4ad3.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.ptfrz3fits.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -195,23 +195,23 @@
       "netstandard.uriri6ambh.wasm": "netstandard.wasm",
       "System.Private.CoreLib.s7q7c40kwm.wasm": "System.Private.CoreLib.wasm",
       "dotnet.js": "dotnet.js",
-      "dotnet.native.st0ovrfdhi.js": "dotnet.native.js",
-      "dotnet.native.67rumul467.wasm": "dotnet.native.wasm",
-      "dotnet.runtime.593bvuk5yc.js": "dotnet.runtime.js",
+      "dotnet.native.50iqa8w3ys.js": "dotnet.native.js",
+      "dotnet.native.pk43x8e436.wasm": "dotnet.native.wasm",
+      "dotnet.runtime.ew19f13umk.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "MyBlazorAppDiallo.wdcabokg0z.wasm": "MyBlazorAppDiallo.wasm",
-      "MyBlazorAppDiallo.idlf2cvizz.pdb": "MyBlazorAppDiallo.pdb"
+      "MyBlazorAppDiallo.pcknnwk0wk.wasm": "MyBlazorAppDiallo.wasm",
+      "MyBlazorAppDiallo.dxiivv34m5.pdb": "MyBlazorAppDiallo.pdb"
     },
     "jsModuleNative": {
-      "dotnet.native.st0ovrfdhi.js": "sha256-MBW/zayfv+YU6mhH7y4b8NNU4D1EYd7nf9gYrFshnnY="
+      "dotnet.native.50iqa8w3ys.js": "sha256-pQdXuxfVeqYHOwd5HUM2ERd7OnXirj9JTF37b6OdTAc="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.593bvuk5yc.js": "sha256-x+PnWU47EIr/zL3xxqIUMDJi/dy5904TVGunDqCvjIY="
+      "dotnet.runtime.ew19f13umk.js": "sha256-Isv/63htfX73xgn3/2cZMtk4S8xBcbmlXRgJMDv4mhI="
     },
     "wasmNative": {
-      "dotnet.native.67rumul467.wasm": "sha256-zrxfVswzVbeO5uCzmKKF3OONr7OzIJ3PhZOWz9t1Rs8="
+      "dotnet.native.pk43x8e436.wasm": "sha256-6fprjjfQGsopiMetOMnTFT7N83KgQiUia8r8F1s/HUI="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -412,10 +412,10 @@
       "WindowsBase.pg3o6xzigg.wasm": "sha256-dz62CHynC+zqTkbMOf3vm7YAhiRA8/pIoAwuqHfBL5M=",
       "mscorlib.jl2pswegra.wasm": "sha256-mSoCIDTdCQKTipW8VmFCypW/4AopZauaYRa8LoZdHvY=",
       "netstandard.uriri6ambh.wasm": "sha256-yuH/cvPd6r8N9nfPWihyckFD7hPFP+VQtQQxEqi7HIQ=",
-      "MyBlazorAppDiallo.wdcabokg0z.wasm": "sha256-NOitVPddquRqrZgODbPYFlCWbjJmAiLXWWRw7OH7xH8="
+      "MyBlazorAppDiallo.pcknnwk0wk.wasm": "sha256-NwIAlsnFI/Oq+go3eQByLb9pN4hDeNV5weBBKYk7VXo="
     },
     "pdb": {
-      "MyBlazorAppDiallo.idlf2cvizz.pdb": "sha256-CoRPnMqVEKPDyo/eNvq7tjajk4X7RtG9vZOvy5P1kyM="
+      "MyBlazorAppDiallo.dxiivv34m5.pdb": "sha256-UbthiRmCtpY47AFokGxMgkSDpNF8Qav+m6PDiFnCmNw="
     }
   },
   "cacheBootResources": true,

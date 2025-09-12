@@ -1,77 +1,98 @@
-.page[b-e18u8zev69] {
+.page[b-adox74loou] {
     position: relative;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
-main[b-e18u8zev69] {
+main[b-adox74loou] {
     flex: 1;
+    margin: 0;
+    padding: 0;
 }
 
-.sidebar[b-e18u8zev69] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+/* Sidebar con gradiente come specificato */
+.sidebar[b-adox74loou] {
+    background: linear-gradient(180deg, #121212, #2a003f);
+    color: white;
 }
 
-.top-row[b-e18u8zev69] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
+/* TOP ROW BIANCA come richiesto */
+.top-row[b-adox74loou] {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e0e0e0;
+    justify-content: flex-start;
     height: 3.5rem;
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0 1rem;
 }
 
-    .top-row[b-e18u8zev69]  a, .top-row[b-e18u8zev69]  .btn-link {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-        text-decoration: none;
-    }
+/* Rimozione padding eccessivi */
+.top-row[b-adox74loou]  a, .top-row[b-adox74loou]  .btn-link {
+    white-space: nowrap;
+    margin-left: 0;
+    text-decoration: none;
+    color: #333;
+}
 
-    .top-row[b-e18u8zev69]  a:hover, .top-row[b-e18u8zev69]  .btn-link:hover {
-        text-decoration: underline;
-    }
+.top-row[b-adox74loou]  a:hover, .top-row[b-adox74loou]  .btn-link:hover {
+    text-decoration: underline;
+}
 
-    .top-row[b-e18u8zev69]  a:first-child {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+.top-row[b-adox74loou]  a:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
+/* Contenuto senza padding */
+article.content[b-adox74loou] {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Media queries responsive */
 @media (max-width: 640.98px) {
-    .top-row[b-e18u8zev69] {
+    .top-row[b-adox74loou] {
         justify-content: space-between;
+        padding: 0 0.5rem;
     }
 
-    .top-row[b-e18u8zev69]  a, .top-row[b-e18u8zev69]  .btn-link {
+    .top-row[b-adox74loou]  a, .top-row[b-adox74loou]  .btn-link {
         margin-left: 0;
     }
 }
 
 @media (min-width: 641px) {
-    .page[b-e18u8zev69] {
+    .page[b-adox74loou] {
         flex-direction: row;
     }
 
-    .sidebar[b-e18u8zev69] {
+    .sidebar[b-adox74loou] {
         width: 250px;
         height: 100vh;
         position: sticky;
         top: 0;
     }
 
-    .top-row[b-e18u8zev69] {
+    .top-row[b-adox74loou] {
         position: sticky;
         top: 0;
-        z-index: 1;
+        z-index: 1000;
     }
 
-    .top-row.auth[b-e18u8zev69]  a:first-child {
+    .top-row.auth[b-adox74loou]  a:first-child {
         flex: 1;
         text-align: right;
         width: 0;
     }
 
-    .top-row[b-e18u8zev69], article[b-e18u8zev69] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
+    /* RIMOZIONE PADDING ECCESSIVI */
+    .top-row[b-adox74loou], article[b-adox74loou] {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
